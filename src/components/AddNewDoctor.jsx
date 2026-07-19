@@ -65,8 +65,7 @@ const handleAddNewDoctor = async(e) =>{
 
 
 
-      const response = await axios.post(
-        "http://localhost:4000/api/v1/user/doctor/addnew",
+      const response = await axios.post("https://vercel-backed1.vercel.app/api/v1/user/doctor/addnew",
         formData,
         {
       withCredentials:true,
